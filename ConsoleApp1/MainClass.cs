@@ -105,7 +105,16 @@ namespace ConsoleApp1
         {
             public void rules()
             {
-
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("\n\t\t\t\t\tTicTacToe (RULES)\n\n");
+                Console.WriteLine("\n\t\t\t(@) Player-1's mark is a cross (X)");
+                Console.WriteLine("\n\t\t\t(@) Player-2's mark is a circle (O)");
+                Console.WriteLine("\n\t\t\t(@) Press ENTER key to mark");
+                Console.WriteLine("\n\t\t\t(@) Press UP, DOWN, LEFT and RIGHT key to move");
+                Console.WriteLine("\n\n\t\t\tPress any key to continue....");
+                Console.ReadKey();
+                Console.ResetColor();
+                Console.Clear();
             }
             public void players_turn_display(int player)
             {
